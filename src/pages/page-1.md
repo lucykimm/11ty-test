@@ -1,5 +1,9 @@
 ---
-title: Page 1
+title: Project 1 Stories as Networks
 ---
+## On Punctuation
 
-This is the first page
+  The project is a visual interpretation of "On Punctuation" by Gertrude Stein which is about the commas, semicolons, appostrophes in poetry and prose.
+
+
+

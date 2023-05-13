@@ -1,9 +1,25 @@
----
-layout: base.njk 
----
-
-{{ content | safe }}
-
-<footer>
-    <p> Published on: {{ page.date.toDateString() }}</p>
-</footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{'/css/main.css' | url}}">
+</head>
+<body>
+    <main>
+    <header>
+        <h1>{{ title }}</h1>  
+        <h3><a href="https://lucykimm.github.io/core-2-int-lab/projects/index.html">Link to projects</a></h3>
+    </header>
+        <article>
+            {{ content | safe }}
+            </article>
+    </main>
+    <footer>
+        <span>Published on: {{ page.date.toDateString() }}</span>
+        <div>&copy; 2023 11ty test</div>
+    </footer>
+</body>
+</html>
